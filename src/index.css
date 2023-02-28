@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.redAllert {
+  display: flex;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.TodoItem {
+  display: flex;
+  width: 400px;
+}
+
+.TodoItem1 {
+  width: 100px;
+}
+
+.todoForm {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.todoForm button {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-message {
+  position: absolute;
+  color: red;
+}
+
+.error {
+  border: 1px solid red;
+}
